@@ -58,7 +58,7 @@ You can explore the project directly on GitHub:
 - **/code** → Python scripts (VS Code)  
 - **/reports** → project report and explanations  
 - **/data** → explains automatic data loading  
-- **/images** → charts and visual outputs  
+  
 
 GitHub renders notebooks and documents automatically, so you can review everything without downloading.
 
