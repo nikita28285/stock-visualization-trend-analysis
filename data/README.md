@@ -20,7 +20,7 @@ If you want to run the project:
 
 ---
 
-## 📊 Features
+##  Features
 
 - Load historical stock data directly from Yahoo Finance  
 - Time-series trend visualization  
@@ -30,7 +30,7 @@ If you want to run the project:
 
 ---
 
-## 🤖 Machine Learning (LSTM)
+##  Machine Learning (LSTM)
 
 Along with visualization, I experimented with an **LSTM Neural Network** for learning purposes.
 
@@ -43,7 +43,7 @@ Along with visualization, I experimented with an **LSTM Neural Network** for lea
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Python  
 - Jupyter Notebook  
@@ -54,5 +54,42 @@ Along with visualization, I experimented with an **LSTM Neural Network** for lea
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
+1. Open the notebook in /notebooks
+2. Install dependencies:
+   pip install yfinance pandas matplotlib tensorflow
+3. Run all cells
+4. Data loads automatically and charts are generated
 
+## Running the Interactive App (Streamlit)
+
+This project also includes a Streamlit web app that runs from VS Code.
+
+The app allows users to:
+
+enter a stock/company name (ticker symbol)
+
+view historical price charts
+
+see model-generated predicted values (LSTM)
+
+compare real vs predicted trends side-by-side
+
+## Project Report 
+
+A detailed project report is available in the /reports folder.
+It explains:
+
+project background & problem statement
+
+data collection using yfinance
+
+visualization results with graphs
+
+LSTM model explanation
+
+screenshots of real outputs
+
+comparison of actual vs predicted values
+
+conclusion and observations
